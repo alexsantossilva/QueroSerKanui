@@ -7,13 +7,13 @@
  * To change this template use File | Settings | File Templates.
  */
 
-namespace QueroSerKanui;
+namespace QueroSerKanui\src;
 
-class KaNois {
 
+class Nois {
     public static function convert($number){
-        if ($number % 7 == 0 and 0 == $number % 5 ){
-            return 'KaNois';
+        if ($number % 7 == 0 ){
+            return 'Nois';
         }
         return $number;
     }

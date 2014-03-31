@@ -7,7 +7,7 @@
  * To change this template use File | Settings | File Templates.
  */
 
-namespace QueroSerKanui;
+namespace QueroSerKanui\src;
 
 
 class Ka {

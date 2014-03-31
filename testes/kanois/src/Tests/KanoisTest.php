@@ -7,13 +7,13 @@
  * To change this template use File | Settings | File Templates.
  */
 
-namespace QueroSerKanui\Tests;
+namespace QueroSerKanui\src\Tests;
 
 
-use QueroSerKanui\Ka;
-use QueroSerKanui\KaNois;
-use QueroSerKanui\Nois;
-use QueroSerKanui\Writer;
+use QueroSerKanui\src\Ka;
+use QueroSerKanui\src\KaNois;
+use QueroSerKanui\src\Nois;
+use QueroSerKanui\src\Writer;
 
 class KanoisTest extends \PHPUnit_Framework_TestCase {
 

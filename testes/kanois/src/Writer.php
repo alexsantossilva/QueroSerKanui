@@ -7,11 +7,7 @@
  * To change this template use File | Settings | File Templates.
  */
 
-namespace QueroSerKanui;
-
-use QueroSerKanui\Ka;
-use QueroSerKanui\KaNois;
-use QueroSerKanui\Nois;
+namespace QueroSerKanui\src;
 
 class Writer
 {
