@@ -7,13 +7,13 @@
  * To change this template use File | Settings | File Templates.
  */
 
-namespace QueroSerKanui\src\Tests;
+namespace QueroSerKanui\Tests;
 
 
-use QueroSerKanui\src\Ka;
-use QueroSerKanui\src\KaNois;
-use QueroSerKanui\src\Nois;
-use QueroSerKanui\src\Writer;
+use QueroSerKanui\Ka;
+use QueroSerKanui\KaNois;
+use QueroSerKanui\Nois;
+use QueroSerKanui\Writer;
 
 class KanoisTest extends \PHPUnit_Framework_TestCase {
 
@@ -28,9 +28,5 @@ class KanoisTest extends \PHPUnit_Framework_TestCase {
     public function testKaNois(){
         $this->assertEquals('KaNois', KaNois::convert(35));
         $this->assertEquals(8, Ka::convert(8));
-    }
-
-    public function testWriter(){
-       Writer::calculate();
     }
 }

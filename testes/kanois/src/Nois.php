@@ -7,7 +7,7 @@
  * To change this template use File | Settings | File Templates.
  */
 
-namespace QueroSerKanui\src;
+namespace QueroSerKanui;
 
 
 class Nois {

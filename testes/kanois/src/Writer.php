@@ -7,13 +7,13 @@
  * To change this template use File | Settings | File Templates.
  */
 
-namespace QueroSerKanui\src;
+namespace QueroSerKanui;
 
 class Writer
 {
-    public static function calculate()
+    public static function write($to=1, $from=100)
     {
-        for ($i = 1; $i <= 100; $i++) {
+        for ($i = $to; $i <= $from; $i++) {
             echo static::convert($i) . PHP_EOL;
         }
     }
